@@ -1,5 +1,5 @@
 
-287 completed trips
+332 completed trips
 
 On-Road Report
 ==============
@@ -856,3 +856,4 @@ Total: $2452.41
 'e <number>' to see activity at exit
 'q' to quit
 > q
+

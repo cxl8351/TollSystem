@@ -1,4 +1,4 @@
-1 incomplete trips
+
 2 completed trips
 
 On-Road Report
@@ -19,26 +19,26 @@ BILLING INFORMATION
 [I_AM_STROOT] on #45, time    61; off #39, time   100: $ 2.46
 Total: $ 4.92
 
-'b &lt;string&gt;' to see bill for license tag
-'e &lt;number&gt;' to see activity at exit
+'b <string>' to see bill for license tag
+'e <number>' to see activity at exit
 'q' to quit
-&gt; b I_AM_STROOT
+> b I_AM_STROOT
 [I_AM_STROOT] on #45, time    61; off #39, time   100: $ 2.46
 
 Vehicle total due: $ 2.46
 
-'b &lt;string&gt;' to see bill for license tag
-'e &lt;number&gt;' to see activity at exit
+'b <string>' to see bill for license tag
+'e <number>' to see activity at exit
 'q' to quit
-&gt; b DR_J
+> b DR_J
 [       DR_J] on #45, time    60; off #39, time   150: $ 2.46
 
 Vehicle total due: $ 2.46
 
-'b &lt;string&gt;' to see bill for license tag
-'e &lt;number&gt;' to see activity at exit
+'b <string>' to see bill for license tag
+'e <number>' to see activity at exit
 'q' to quit
-&gt; e 45
+> e 45
 
 EXIT 45 REPORT
 ==============
@@ -46,39 +46,25 @@ EXIT 45 REPORT
 [I_AM_STROOT] on #45, time    61; off #39, time   100
 [ BEN_KENOBI] on #45, time    62
 
-'b &lt;string&gt;' to see bill for license tag
-'e &lt;number&gt;' to see activity at exit
+'b <string>' to see bill for license tag
+'e <number>' to see activity at exit
 'q' to quit
-&gt; e 39
+> e 38
+
+EXIT 38 REPORT
+==============
+
+'b <string>' to see bill for license tag
+'e <number>' to see activity at exit
+'q' to quit
+> e 39
 
 EXIT 39 REPORT
 ==============
-[I_AM_STROOT] on #45, time    61; off #39, time   100
 [       DR_J] on #45, time    60; off #39, time   150
+[I_AM_STROOT] on #45, time    61; off #39, time   100
 
-'b &lt;string&gt;' to see bill for license tag
-'e &lt;number&gt;' to see activity at exit
+'b <string>' to see bill for license tag
+'e <number>' to see activity at exit
 'q' to quit
-&gt; b BEN_KENOBI
-
-Vehicle total due: $ 0.00
-
-'b &lt;string&gt;' to see bill for license tag
-'e &lt;number&gt;' to see activity at exit
-'q' to quit
-&gt; b JOE_DOE
-
-Vehicle total due: $ 0.00
-
-'b &lt;string&gt;' to see bill for license tag
-'e &lt;number&gt;' to see activity at exit
-'q' to quit
-&gt; e 11
-
-EXIT 11 REPORT
-==============
-
-'b &lt;string&gt;' to see bill for license tag
-'e &lt;number&gt;' to see activity at exit
-'q' to quit
-&gt; q
+> q

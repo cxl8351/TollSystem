@@ -1,6 +1,5 @@
-$ java TollReport ../../../data/5guys.txt # run from out/production/TollsRUs
 
-5 completed trips
+18 completed trips
 
 On-Road Report
 ==============
@@ -11,41 +10,41 @@ On-Road Report
 SPEEDER REPORT
 ==============
 Vehicle DR_WHO, starting at time 10
-        from Rochester - Victor - I-490
-        to Kingston - NY Route 28 - Kingston-Rhinecliff Bridge
-        973.6 MpH
+	from Rochester - Victor - I-490
+	to Kingston - NY Route 28 - Kingston-Rhinecliff Bridge
+	973.6 MpH
 Vehicle DR_WHO, starting at time 29
-        from Mile Square Road
-        to Buffalo - Cheektowaga - Walden Avenue
-        1404.7 MpH
+	from Mile Square Road
+	to Buffalo - Cheektowaga - Walden Avenue
+	1404.7 MpH
 Vehicle DR_WHO, starting at time 76
-        from Batavia - NY Route 98
-        to Schenectady - Scotia - I-890 - NY Routes 5 & 5S
-        2734.9 MpH
+	from Batavia - NY Route 98
+	to Schenectady - Scotia - I-890 - NY Routes 5 & 5S
+	2734.9 MpH
 Vehicle DR_WHO, starting at time 94
-        from Fultonville - Fonda - NY Route 30A
-        to Dunkirk - Fredonia - NY Route 60
-        Infinity MpH
+	from Fultonville - Fonda - NY Route 30A
+	to Dunkirk - Fredonia - NY Route 60
+	Infinity MpH
 Vehicle DR_WHO, starting at time 292
-        from White Plains - Rye - Cross Westchester Expressway (I-287)
-        to Buffalo (Downtown) - Canada - Niagara Falls - I-190
-        858.3 MpH
+	from White Plains - Rye - Cross Westchester Expressway (I-287)
+	to Buffalo (Downtown) - Canada - Niagara Falls - I-190
+	858.3 MpH
 Vehicle DR_WHO, starting at time 373
-        from Schenectady - I-890 - NY Routes 7 & 146
-        to Cross County Parkway - Mile Square Road
-        2274.8 MpH
+	from Schenectady - I-890 - NY Routes 7 & 146
+	to Cross County Parkway - Mile Square Road
+	2274.8 MpH
 Vehicle JOE_NOTO, starting at time 140
-        from Spring Valley - Nanuet - NY Route 59
-        to New Paltz - Poughkeepsie - NY Route 299
-        106.4 MpH
+	from Spring Valley - Nanuet - NY Route 59
+	to New Paltz - Poughkeepsie - NY Route 299
+	106.4 MpH
 Vehicle JOE_NOTO, starting at time 203
-        from Kingston - NY Route 28 - Kingston-Rhinecliff Bridge
-        to Selkirk - NY Routes 144 & 396
-        201.0 MpH
+	from Kingston - NY Route 28 - Kingston-Rhinecliff Bridge
+	to Selkirk - NY Routes 144 & 396
+	201.0 MpH
 Vehicle THX_1138, starting at time 29
-        from New Jersey - I-287 - NJ Route 17 South
-        to Kingston - NY Route 28 - Kingston-Rhinecliff Bridge
-        159.7 MpH
+	from New Jersey - I-287 - NJ Route 17 South
+	to Kingston - NY Route 28 - Kingston-Rhinecliff Bridge
+	159.7 MpH
 
 BILLING INFORMATION
 ===================
@@ -69,10 +68,10 @@ BILLING INFORMATION
 [   TOP-5309] on #43, time  1826; off #45, time  1932: $ 0.43
 Total: $106.66
 
-'b &lt;string&gt;' to see bill for license tag
-'e &lt;number&gt;' to see activity at exit
+'b <string>' to see bill for license tag
+'e <number>' to see activity at exit
 'q' to quit
-&gt; b DR_WHO
+> b DR_WHO
 [     DR_WHO] on #45, time    10; off #19, time    26: $10.38
 [     DR_WHO] on # 3, time    29; off #52, time    47: $16.86
 [     DR_WHO] on #48, time    76; off #26, time    81: $ 9.12
@@ -83,27 +82,27 @@ Total: $106.66
 
 Vehicle total due: $72.80
 
-'b &lt;string&gt;' to see bill for license tag
-'e &lt;number&gt;' to see activity at exit
+'b <string>' to see bill for license tag
+'e <number>' to see activity at exit
 'q' to quit
-&gt; b JOE_NOTO
+> b JOE_NOTO
 [   JOE_NOTO] on #12, time    39; off #19, time   119: $ 2.90
 [   JOE_NOTO] on #14, time   140; off #18, time   170: $ 2.13
 [   JOE_NOTO] on #19, time   203; off #22, time   216: $ 1.74
 
 Vehicle total due: $ 6.78
 
-'b &lt;string&gt;' to see bill for license tag
-'e &lt;number&gt;' to see activity at exit
+'b <string>' to see bill for license tag
+'e <number>' to see activity at exit
 'q' to quit
-&gt; b TXH_1138
+> b TXH_1139
 
 Vehicle total due: $ 0.00
 
-'b &lt;string&gt;' to see bill for license tag
-'e &lt;number&gt;' to see activity at exit
+'b <string>' to see bill for license tag
+'e <number>' to see activity at exit
 'q' to quit
-&gt; b THX_1138
+> b THX_1138
 [   THX_1138] on #15, time    29; off #19, time    52: $ 2.45
 [   THX_1138] on #44, time    56; off #37, time   119: $ 2.53
 [   THX_1138] on #23, time   133; off #25, time   162: $ 0.48
@@ -112,86 +111,78 @@ Vehicle total due: $ 0.00
 
 Vehicle total due: $ 6.52
 
-'b &lt;string&gt;' to see bill for license tag
-'e &lt;number&gt;' to see activity at exit
+'b <string>' to see bill for license tag
+'e <number>' to see activity at exit
 'q' to quit
-&gt; b SNAKE_PLSK
+> b SNAKE_PLSK
 [ SNAKE_PLSK] on # 0, time   831; off #62, time  1911: $19.84
 
 Vehicle total due: $19.84
 
-'b &lt;string&gt;' to see bill for license tag
-'e &lt;number&gt;' to see activity at exit
+'b <string>' to see bill for license tag
+'e <number>' to see activity at exit
 'q' to quit
-&gt; b TOP_5309
-
-Vehicle total due: $ 0.00
-
-'b &lt;string&gt;' to see bill for license tag
-'e &lt;number&gt;' to see activity at exit
-'q' to quit
-&gt; b TOP-5309
+> b TOP-5309
 [   TOP-5309] on #14, time  1745; off #15, time  1767: $ 0.29
 [   TOP-5309] on #43, time  1826; off #45, time  1932: $ 0.43
 
 Vehicle total due: $ 0.73
 
-'b &lt;string&gt;' to see bill for license tag
-'e &lt;number&gt;' to see activity at exit
+'b <string>' to see bill for license tag
+'e <number>' to see activity at exit
 'q' to quit
-&gt; e 14
+> e 14
 
 EXIT 14 REPORT
 ==============
 [   JOE_NOTO] on #14, time   140; off #18, time   170
 [   TOP-5309] on #14, time  1745; off #15, time  1767
 
-'b &lt;string&gt;' to see bill for license tag
-'e &lt;number&gt;' to see activity at exit
+'b <string>' to see bill for license tag
+'e <number>' to see activity at exit
 'q' to quit
-&gt; e 15
+> e 15
 
 EXIT 15 REPORT
 ==============
-[     DR_WHO] on #15, time   458
 [   THX_1138] on #15, time    29; off #19, time    52
 [   TOP-5309] on #14, time  1745; off #15, time  1767
+[     DR_WHO] on #15, time   458
 
-'b &lt;string&gt;' to see bill for license tag
-'e &lt;number&gt;' to see activity at exit
+'b <string>' to see bill for license tag
+'e <number>' to see activity at exit
 'q' to quit
-&gt; e 30
+> e 30
 
 EXIT 30 REPORT
 ==============
 [   JOE_NOTO] on #30, time   443
 
-'b &lt;string&gt;' to see bill for license tag
-'e &lt;number&gt;' to see activity at exit
+'b <string>' to see bill for license tag
+'e <number>' to see activity at exit
 'q' to quit
-&gt; e 0
+> e 0
 
 EXIT 0 REPORT
 ==============
 [ SNAKE_PLSK] on # 0, time   831; off #62, time  1911
 
-'b &lt;string&gt;' to see bill for license tag
-'e &lt;number&gt;' to see activity at exit
+'b <string>' to see bill for license tag
+'e <number>' to see activity at exit
 'q' to quit
-&gt; speeders
+> speeders
 Illegal command. Try again
-'b &lt;string&gt;' to see bill for license tag
-'e &lt;number&gt;' to see activity at exit
+'b <string>' to see bill for license tag
+'e <number>' to see activity at exit
 'q' to quit
-&gt; b SNAKE PLSK
+> b SNAKE PLSK
 Illegal command. Try again
-'b &lt;string&gt;' to see bill for license tag
-'e &lt;number&gt;' to see activity at exit
+'b <string>' to see bill for license tag
+'e <number>' to see activity at exit
 'q' to quit
-&gt; quit
+> quit
 Illegal command. Try again
-'b &lt;string&gt;' to see bill for license tag
-'e &lt;number&gt;' to see activity at exit
+'b <string>' to see bill for license tag
+'e <number>' to see activity at exit
 'q' to quit
-&gt; q
-$
+> q
